@@ -1,0 +1,17 @@
+[package]
+name = "scrapping"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+reqwest = "0.12.7"
+utils= {path = "./utils"}
+tokio = { version = "1.32.0", features = ["full"] }
+
+
+
+
+
+[[bin]]
+name = "scrapping"
+path = "src/main.rs"
